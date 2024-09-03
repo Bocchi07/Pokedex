@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Bocchi07.github.io/Pokedex/",
+  "homepage": "./",
    "base": "/Pokedex/",
   "name": "pokedex",
   "private": true,
