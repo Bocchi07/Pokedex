@@ -1,4 +1,4 @@
-# Pokedex
+# Pokedex Web App
 
 Welcome to the Pokédex, a React-based web application designed to provide detailed information about all your favorite Pokémon! With this interactive Pokédex, you can explore various Pokémon, discover their abilities, stats, and evolution paths, and learn more about each species' unique traits. Perfect for trainers of all levels!
 
