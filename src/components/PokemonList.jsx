@@ -80,7 +80,7 @@ function PokemonList({
       <p className="card-id font-semibold text-white-600 opacity-50 ml-auto mb-auto">#{String(pokemonId).padStart(4, "0")}</p>
       <img
       src={pokemonSprite}
-      className={`card-sprite z-10 pokemon-img h-full object-contain`}
+      className={`card-sprite z-10 pb-2 min-h-full pokemon-img h-full object-contain`}
       alt="img not found"
     />
 

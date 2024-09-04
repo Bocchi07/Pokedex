@@ -80,7 +80,19 @@
         display: block;
     }
 
+    .filter-list {
+        background-color: white;
+        color: black;
+        width: 100%;
+    }
+
 }
+
+.filter-list {
+    background-color: white;
+    color: black;
+}
+
 
 .filter-container{
     width: 20rem;

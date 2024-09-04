@@ -62,9 +62,9 @@ function Header({handleMenuBar, backIsActive, setBackIsActive, closePage}) {
           <ul className="flex gap-x-5 text-sm ml-auto mr-10 justify-center align-center mr-12 font-semibold">
             <li onClick={closePage} className={`gap-x-2 items-center w-20 mr-4 my-auto ${backIsActive ? 'flex' : 'hidden'}`}><TbArrowBigLeftLine />Back</li>
 
-            <li><Link to="/">Home</Link></li>
+            <li ><Link to="/">Home</Link></li>
             <li><Link to="/pagination">Pagination</Link></li>
-            <li><Link to="/items">Items</Link></li>
+            <li onClick={closePage}><Link to="/items">Items</Link></li>
             <li className="relative">
               <details>
                 <summary  onClick={handleThemeIsActive} className="flex gap-x-1 items-center">Themes <RiArrowDownSLine className={`${themeIsActive ? "rotate-180" : "rotate-0"} transition-all`}/></summary>
@@ -104,7 +104,7 @@ function Header({handleMenuBar, backIsActive, setBackIsActive, closePage}) {
                 </div>
               </details>
             </li>
-            <li><Link to="/about">About</Link></li>
+            <li onClick={closePage}><Link to="/about">About</Link></li>
           </ul>
         </div>
 

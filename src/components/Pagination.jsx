@@ -138,7 +138,7 @@ function Pagination({
                                   <button onClick={prevBtn} type="button" className="w-[20%] cursor-pointer" >
                                      <MdOutlineKeyboardDoubleArrowLeft />
                                   </button>
-                                  <h2 className="flex-1">{page}</h2>
+                                  <h2 className="flex-1 font-mono">Page {page}</h2>
                                   <button onClick={nextBtn} type="button" className="w-[20%]" >
                                      <MdKeyboardDoubleArrowRight  />
                                   </button>

@@ -334,7 +334,7 @@ function FilteringSection({setLoading, searchPokemon, setCurrentPage, handleSear
           {/*<div className="w-full bg-white py-1 px-2 rounded-full shadow-sm">Moves</div>*/}
 
          <h4 className="text-base font-semibold text-left mb-2 filter-msg">Filter By:</h4>
-          <select id="forms" className="filter-list form-select  h-10 px-3 text-sm rounded-md bg-white border-0 border-slate-100 shadow-md cursor-pointer" onChange={handleFormChange}>
+          <select id="forms" className="filter-list form-select  h-10 px-3 text-sm rounded-md  border-0 border-slate-100 shadow-md cursor-pointer" onChange={handleFormChange}>
               <option value="" className="text-xs">All Forms</option>
               <option value="standard" className="text-xs">Standard Form</option>
               <option value="mega" className="text-xs">Mega Evolution</option>
@@ -344,14 +344,14 @@ function FilteringSection({setLoading, searchPokemon, setCurrentPage, handleSear
               <option value="primal" className="text-xs">Primal</option>
           </select>
 
-          <select onChange={handleTypesChange} className="filter-list h-10  px-3 rounded-md text-sm bg-white border-0 border-slate-100 shadow-md cursor-pointer ">
+          <select onChange={handleTypesChange} className="filter-list h-10  px-3 rounded-md text-sm  border-0 border-slate-100 shadow-md cursor-pointer ">
             <option value="" className="text-xs">Types</option>
             {pokemonTypesArr && pokemonTypesArr.map((t,i) => {
                 return <option key={i}value={t} className="text-xs">{t[0].toUpperCase() + t.slice(1)}</option>
             })}
           </select>
 
-          <select onChange={handleGenerationChange} className="filter-list h-10 px-3 text-sm rounded-md bg-white border-0 border-slate-100 shadow-md cursor-pointer">
+          <select onChange={handleGenerationChange} className="filter-list h-10 px-3 text-sm rounded-md  border-0 border-slate-100 shadow-md cursor-pointer">
             <option value="" className="text-xs">Generation</option>
             {pokemonGenerations && pokemonGenerations.map((g, i) => {
                 return <option key={i} value={g} className="text-xs">{g[0].toUpperCase() + g.slice(1)}</option>

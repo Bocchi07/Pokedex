@@ -150,7 +150,7 @@ function Home({handleBar}){
 
  		<div className = "z-30">
  			<div className =" h-[90%]">
- 				<img src={Hero} alt="" className = "hero h-[90%] min-h[50%] m-auto z-30"/>
+ 				<img src={Hero} alt="" className = "hero w-[90%] min-h[50%] m-auto z-30"/>
  			</div>
  			<div className = " flex justify-end gap-x-2 items-end p-2">
 		           <a href="https://www.instagram.com/kafka_beta/" target="_blank">
