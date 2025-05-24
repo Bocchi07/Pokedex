@@ -19,7 +19,7 @@ To develop the Pokedex project, we utilized a variety of advanced tools and tech
    -  **API Integration** (Fetches and displays real-time Pokémon data to keep the app current
 
 ## How to Use
-1. Visit the [Pokédex website](https://bocchi07.github.io/Pokedex/).
+1. Visit the [Pokédex website](https://jeavenanda07.github.io/Pokedex/).
 2. Browse through the Pokémon list or use the search feature to find specific Pokémon.
 3. Click on a Pokémon card to view its detailed stats, abilities, and evolution information.
 
